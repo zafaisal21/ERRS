@@ -1,0 +1,14 @@
+{
+  "name": "fa-rest-route",
+  "version": "1.0.0",
+  "description": "Simple Rest Route",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fa-rest-route"
+  ],
+  "author": "Faisal Amir",
+  "license": "ISC"
+}
