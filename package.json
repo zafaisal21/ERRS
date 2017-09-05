@@ -1,13 +1,13 @@
 {
-  "name": "Express Rest Route",
+  "name": "ERRS",
   "version": "1.0.0",
-  "description": "Express Rest Route Generator",
+  "description": "Rest Route Support",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Express Rest Route Generator"
+    "ERRS"
   ],
   "author": "Faisal Amir",
   "license": "ISC"
