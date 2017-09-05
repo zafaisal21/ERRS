@@ -41,18 +41,18 @@ function resource(router, route, controller, param, log){
   //===============Logging Available Route=================
     switch (log) {
       case 'true':
-          console.log("");
-          console.log("===REST API "+route+" Info===");
-          console.log("REST API Route Available for :"+route);
-          console.log("GET index : "+index_route);
-          console.log("POST store : "+store_route);
-          console.log("GET create : "+create_route);
-          console.log("GET show : "+show_route);
-          console.log("PUT/PATCH update : "+update_route);
-          console.log("DELETE destroy : "+destroy_route);
-          console.log("GET edit : "+edit_route);
-          console.log("===END "+route+" INFO===");
-          console.log("");
+        console.log("");
+        console.log('\x1b[33m%s\x1b[0m', "============================================================================================================================");
+        console.log("REST API Route Available for :\x1b[33m"+route+"\x1b[0m");
+        console.log("GET index : "+index_route);
+        console.log("POST store : "+store_route);
+        console.log("GET create : "+create_route);
+        console.log("GET show : "+show_route);
+        console.log("PUT/PATCH update : "+update_route);
+        console.log("DELETE destroy : "+destroy_route);
+        console.log("GET edit : "+edit_route);
+        console.log('\x1b[33m%s\x1b[0m', "============================================================================================================================");
+        console.log("");
         break;
       default:
 

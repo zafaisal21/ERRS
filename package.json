@@ -1,13 +1,13 @@
 {
-  "name": "fa-rest-route",
+  "name": "Express Rest Route",
   "version": "1.0.0",
-  "description": "Simple Rest Route",
+  "description": "Express Rest Route Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "fa-rest-route"
+    "Express Rest Route Generator"
   ],
   "author": "Faisal Amir",
   "license": "ISC"
